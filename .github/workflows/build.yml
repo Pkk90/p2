@@ -10,10 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # Install Buildozer
-      - name: Install Buildozer
-        run: pip install buildozer
-
       # used to cache dependencies with a timeout
       - name: Get Date
         id: get-date
