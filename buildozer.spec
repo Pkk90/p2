@@ -1,4 +1,4 @@
-[buildozer]
+m[buildozer]
 warn_on_root = 1
 [app]
 
@@ -15,7 +15,7 @@ package.domain = org.myapp
 source.dir = .
 
 # (list) Application requirements
-requirements = python3==3.7.6,hostpython3==3.7.6, kivy, pillow
+requirements = python3==3.7.6,hostpython3==3.7.6, kivy, pillow, ephem, requests, hijri_converter
 
 # (str) Application entry point
 main.filename = myapp.py
