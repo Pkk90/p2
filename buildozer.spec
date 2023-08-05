@@ -1,19 +1,19 @@
 [app]
 
 # (str) Title of your application
-title = MyKivyApp
+title = myapp
 
 # (str) Package name
-package.name = mykivyapp
+package.name = myapp
 
 # (str) Package domain (needed for Android packaging)
-package.domain = org.mykivyapp
+package.domain = org.myapp
 
 # (str) Source code where the main.py lives
 source.dir = .
 
 # (list) Application requirements
-requirements = python3, kivy, ephem, requests, hijri-converter
+requirements = python3==3.7.6,hostpython3==3.7.6, kivy, pillow
 
 # (str) Application entry point
 main.filename = myapp.py
@@ -37,7 +37,9 @@ android.sdk_path =
 android.ndk_path =
 
 # (bool) Run the app as a service
-service.mykivyapp = myapp.py
+service.myapp = myapp.py
 
 # (str) Permissions
 android.permissions = INTERNET
+osx.python_version=3.7.6
+osx.kivy_version=1.9.1
