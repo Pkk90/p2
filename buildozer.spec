@@ -1,3 +1,5 @@
+[buildozer]
+warn_on_root = 1
 [app]
 
 # (str) Title of your application
